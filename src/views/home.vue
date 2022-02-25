@@ -8,7 +8,7 @@
      <div class="text-black font-bold font-sans">Capturing Excess ROI in Technology sector</div>
      <h1 class="text-black font-sans my-10">Holdings</h1>
 
-     <div class="grid grid-cols-3 mx-20 my-10">
+     <div class="grid grid-cols-1 mx-20 my-10  sm:grid-cols-3" >
          <div @click="$router.push('/greenlines')" class="hover:bg-zinc-100 h-32 text-4xl font-bold font-sans cursor-pointer	text-gray-300 text-center py-12 hover:text-green-500 hover:shadow-2xl">Greenlines</div>
          <div class="hover:bg-zinc-100 h-32 text-4xl font-bold font-sans cursor-pointer	 text-gray-300 text-center py-12 hover:text-blue-500 hover:shadow-2xl">By Culture</div>
          <div class="hover:bg-zinc-100 h-32 text-4xl font-bold font-sans cursor-pointer	text-gray-300 text-center py-12 hover:text-purple-500 hover:shadow-2xl">Krish.Capital</div>
